@@ -1,0 +1,16 @@
+// Assignment 5 (Lab 5) - Exercise 1 (Basic): compile-time polymorphism
+import java.util.Arrays;
+
+public class PrintOverload {
+    static void print(int x)      { System.out.println("int: " + x); }
+    static void print(double x)   { System.out.println("double: " + x); }
+    static void print(String x)   { System.out.println("String: " + x); }
+    static void print(int[] x)    { System.out.println("int[]: " + Arrays.toString(x)); }
+
+    public static void main(String[] args) {
+        print(42);
+        print(3.14);
+        print("hello");
+        print(new int[]{1, 2, 3});
+    }
+}

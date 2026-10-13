@@ -1,0 +1,8 @@
+*.class
+out/
+data/
+reports/
+typed_lines.txt
+.idea/
+*.iml
+.vscode/

@@ -1,0 +1,5 @@
+Object-oriented programming in Java
+uses classes and objects.
+
+Encapsulation, inheritance, polymorphism
+and abstraction are the four pillars.
